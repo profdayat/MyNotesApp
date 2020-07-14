@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements LoadNotesCallback
         adapter = new NoteAdapter(this);
         rvNotes.setAdapter(adapter);
 
+        // code fungsi untuk Floating Action Button (FAB)
         fabAdd = findViewById(R.id.fab_add);
         fabAdd.setOnClickListener(new View.OnClickListener() {
             @Override
