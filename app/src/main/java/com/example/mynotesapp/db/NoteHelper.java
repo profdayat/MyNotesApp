@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import static android.provider.BaseColumns._ID;
-import static com.example.mynotesapp.db.DatabaseContract.TABLE_NAME;
+import static com.example.mynotesapp.db.DatabaseContract.NoteColumns.TABLE_NAME;
 
 public class NoteHelper {
 
