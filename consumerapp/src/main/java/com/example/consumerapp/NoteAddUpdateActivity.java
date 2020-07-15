@@ -1,4 +1,4 @@
-package com.example.mynotesapp;
+package com.example.consumerapp;
 
 import android.app.AlertDialog;
 import android.content.ContentValues;
@@ -18,18 +18,18 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.mynotesapp.entity.Note;
-import com.example.mynotesapp.helper.MappingHelper;
+import com.example.consumerapp.entity.Note;
+import com.example.consumerapp.helper.MappingHelper;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import static com.example.mynotesapp.db.DatabaseContract.NoteColumns.CONTENT_URI;
-import static com.example.mynotesapp.db.DatabaseContract.NoteColumns.DATE;
-import static com.example.mynotesapp.db.DatabaseContract.NoteColumns.DESCRIPTION;
-import static com.example.mynotesapp.db.DatabaseContract.NoteColumns.TITLE;
+import static com.example.consumerapp.db.DatabaseContract.NoteColumns.CONTENT_URI;
+import static com.example.consumerapp.db.DatabaseContract.NoteColumns.DATE;
+import static com.example.consumerapp.db.DatabaseContract.NoteColumns.DESCRIPTION;
+import static com.example.consumerapp.db.DatabaseContract.NoteColumns.TITLE;
 
 public class NoteAddUpdateActivity extends AppCompatActivity implements View.OnClickListener {
 
